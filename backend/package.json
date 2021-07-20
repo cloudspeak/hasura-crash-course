@@ -1,0 +1,16 @@
+{
+  "name": "cloudspeak-hasura-crash-course-backend",
+  "version": "0.1.0",
+  "description": "The backend API for our example Hasura application, used for responding to events and actions",
+  "main": "index.js",
+  "author": "cloudspeak",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.5"
+  }
+}
